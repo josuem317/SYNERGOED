@@ -1,0 +1,83 @@
+body{
+	font-family: 'Kanit', sans-serif;
+	margin: 0;
+	padding: 10px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	min-height: 100px;
+	background:#0066FF;
+	align-items: center;
+	padding: 5px;
+	margin-left: 5px;
+	background: #b;  /* fallback for old browsers */
+
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	height: 50px;
+	margin-right: 10px;
+}
+nav a{
+	padding-right: 8px;
+}
+nav a:hover{
+	color: black;
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+	nav{
+		padding: 10px ;
+	}
+}
+footer{
+	width: 100%;
+	background-color: #1E88E5 ;
+	padding: 5px;
+	align-items: center;
+	/*display: flex;
+	justify-content: space-between;*/
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 16px;
+
+}
+footer a{
+	text-decoration: none;
+	color: black;
+
+}
+footer a:hover{
+	color: #D6EAF8;
+}
+
+.wp{
+	width: 10%;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding: 5px;
+}
+.h2{
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
